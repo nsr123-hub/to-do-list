@@ -1,0 +1,56 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+    /* background-color: rgb(194, 194, 86); */
+    font-family: Caveat;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#heading{
+    font-weight: 700;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    word-spacing: 1rem;
+    padding-bottom: 2rem;
+    border: 2px solid black;
+    margin: 1rem;
+    padding: 0.5rem;
+} 
+#ipt{
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+#ipt input{
+    width: 50%;
+}
+#ipt button{
+    width: 15%;
+}
+
+#list{
+    list-style: none;
+    
+    
+}
+.list_elements{
+    
+    border: 2px solid black;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+.list_elements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#ch{
+width: 35px;
+}
+/* #item{
+} */
+.Del{
+    width: 15%;
+}
