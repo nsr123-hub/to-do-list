@@ -27,6 +27,7 @@ function Add(){
     //creating new inside div
     let newinsideDiv=document.createElement("div");
     newinsideDiv.innerText=text.value;
+    newinsideDiv.id="item";
 
     //creating new delete button
     let newdeletebutton=document.createElement("button");

@@ -1,7 +1,7 @@
 *{
     margin: 0rem;
     padding: 0rem;
-    /* background-color: rgb(194, 194, 86); */
+    background-image: linear-gradient(to right, rgb(220, 220, 112), rgb(196, 197, 189));
     font-family: Caveat;
     text-align: center;
     font-size: 1.5rem;
@@ -19,12 +19,15 @@
 #ipt{
     display: flex;
     justify-content: space-evenly;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin: 1rem;
     padding: 0.5rem;
 }
 #ipt input{
     width: 50%;
+        background-image: none;
+        background-color: rgba(232, 229, 229, 0.685);
+
 }
 #ipt button{
     width: 15%;
@@ -37,20 +40,31 @@
 }
 .list_elements{
     
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin: 1rem;
     padding: 0.5rem;
 }
 .list_elements{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    width: 80%;
+    padding-left: 10%;
+    justify-content: space-between;
 }
 #ch{
 width: 35px;
 }
-/* #item{
-} */
+#item{
+    background-image: none;
+    flex-grow: 1;
+    background-color: transparent;
+}
 .Del{
     width: 15%;
+}
+
+#list .list_elements .Del:hover {
+    background-color: #ffcccc ;
+    background-image: none;
+    cursor: pointer;
 }
